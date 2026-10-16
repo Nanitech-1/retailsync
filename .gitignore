@@ -1,0 +1,38 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+*.env.local
+
+# Database files & local SQLite
+*.db
+*.sqlite
+*.sqlite3
+data/retailsync.db
+
+# Raw & Processed Datasets (Do not commit raw data)
+data/raw/olist/*
+!data/raw/olist/.gitkeep
+data/raw/supplier_products.csv
+data/processed/
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
